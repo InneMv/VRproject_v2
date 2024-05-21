@@ -1,0 +1,396 @@
+Ward 2 start met VR
+Setting spatial voice limit: 64
+UnityEngine.Debug:Log (object)
+MetaXRAudioSource:OnBeforeSceneLoadRuntimeMethod () (at ./Library/PackageCache/com.meta.xr.sdk.audio@63.0.0/Runtime/scripts/MetaXRAudioSource.cs:40)
+
+Unity v2022.3.19f1, Oculus Utilities v1.95.0, OVRPlugin v1.95.0, SDK v1.0.33.
+UnityEngine.Debug:Log (object)
+OVRManager:InitOVRManager () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2045)
+OVRManager:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2289)
+
+SystemHeadset Meta_Link_Quest_3, API OpenXR
+UnityEngine.Debug:LogFormat (string,object[])
+OVRManager:InitOVRManager () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2048)
+OVRManager:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2289)
+
+OpenXR instance 0x388800000001 session 0x100388800000001
+UnityEngine.Debug:LogFormat (string,object[])
+OVRManager:InitOVRManager () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2052)
+OVRManager:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2289)
+
+Current display frequency 72, available frequencies [72]
+UnityEngine.Debug:LogFormat (string,object[])
+OVRManager:InitOVRManager () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2167)
+OVRManager:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2289)
+
+TcpListener started. Local endpoint: 0.0.0.0:32419
+UnityEngine.Debug:LogFormat (string,object[])
+OVRNetwork/OVRNetworkTcpServer:StartListening (int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/Util/OVRNetwork.cs:102)
+OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer:OnEnable () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/Util/OVRSystemPerfMetrics.cs:246)
+UnityEngine.GameObject:AddComponent<OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer> ()
+OVRManager:InitOVRManager () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2179)
+OVRManager:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2289)
+
+[OVRNetworkTcpServer] Start Listening on port 32419
+UnityEngine.Debug:LogFormat (string,object[])
+OVRNetwork/OVRNetworkTcpServer:StartListening (int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/Util/OVRNetwork.cs:117)
+OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer:OnEnable () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/Util/OVRSystemPerfMetrics.cs:246)
+UnityEngine.GameObject:AddComponent<OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer> ()
+OVRManager:InitOVRManager () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2179)
+OVRManager:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2289)
+
+[OVRPlugin] [CompositorOpenXR::SetClientColorDesc] Change colorspace from 0 to 7
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+OVRPlugin:SetClientColorDesc (OVRPlugin/ColorSpace) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRPlugin.cs:9775)
+OVRManager:set_colorGamut (OVRManager/ColorSpace) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:562)
+OVRManager:InitOVRManager () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2196)
+OVRManager:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2289)
+
+Local Dimming feature is not supported
+UnityEngine.Debug:LogWarning (object)
+OVRManager:InitOVRManager () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2226)
+OVRManager:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2289)
+
+Found IOVRSkeletonDataProvider reference in [BuildingBlock] Hand Tracking right due to unassigned field.
+UnityEngine.Debug:Log (object)
+OVRSkeleton:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/Util/OVRSkeleton.cs:331)
+
+Found IOVRSkeletonDataProvider reference in [BuildingBlock] Hand Tracking left due to unassigned field.
+UnityEngine.Debug:Log (object)
+OVRSkeleton:Awake () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/Util/OVRSkeleton.cs:331)
+
+[OVRManager] OnApplicationPause(false)
+UnityEngine.Debug:Log (object)
+OVRManager:OnApplicationPause (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:3024)
+
+[OVRManager] OnApplicationFocus(true)
+UnityEngine.Debug:Log (object)
+OVRManager:OnApplicationFocus (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:3032)
+
+No Meta XR Audio Room found, setting default room
+UnityEngine.Debug:Log (object)
+MetaXRAudioRoomAcousticProperties:CheckSceneHasRoom () (at ./Library/PackageCache/com.meta.xr.sdk.audio@63.0.0/Runtime/scripts/MetaXRAudioRoomAcousticProperties.cs:111)
+
+Meta XR Audio Native Interface initialized with Unity plugin
+UnityEngine.Debug:Log (object)
+MetaXRAudioNativeInterface:FindInterface () (at ./Library/PackageCache/com.meta.xr.sdk.audio@63.0.0/Runtime/scripts/MetaXRAudioNativeInterface.cs:77)
+MetaXRAudioNativeInterface:get_Interface () (at ./Library/PackageCache/com.meta.xr.sdk.audio@63.0.0/Runtime/scripts/MetaXRAudioNativeInterface.cs:51)
+MetaXRAudioRoomAcousticProperties:Update () (at ./Library/PackageCache/com.meta.xr.sdk.audio@63.0.0/Runtime/scripts/MetaXRAudioRoomAcousticProperties.cs:133)
+MetaXRAudioRoomAcousticProperties:CheckSceneHasRoom () (at ./Library/PackageCache/com.meta.xr.sdk.audio@63.0.0/Runtime/scripts/MetaXRAudioRoomAcousticProperties.cs:114)
+
+OVRControllerHelp: Active controller type: TouchPlus for product Meta Quest 3 (headset Meta_Link_Quest_3, hand HandRight)
+UnityEngine.Debug:LogFormat (string,object[])
+OVRControllerHelper:InitializeControllerModels () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/Util/OVRControllerHelper.cs:218)
+OVRControllerHelper:Start () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/Util/OVRControllerHelper.cs:134)
+
+OVRControllerHelp: Active controller type: TouchPlus for product Meta Quest 3 (headset Meta_Link_Quest_3, hand HandLeft)
+UnityEngine.Debug:LogFormat (string,object[])
+OVRControllerHelper:InitializeControllerModels () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/Util/OVRControllerHelper.cs:218)
+OVRControllerHelper:Start () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/Util/OVRControllerHelper.cs:134)
+
+StartTime5/15/2024 11:40:35 AM
+UnityEngine.Debug:Log (object)
+Timer:Start () (at Assets/Scripts/Timer.cs:25)
+
+C:/Users/InneMv/AppData/LocalLow/DefaultCompany/VR_project
+UnityEngine.Debug:Log (object)
+Timer:Start () (at Assets/Scripts/Timer.cs:30)
+
+System.IO.StreamWriter
+UnityEngine.Debug:Log (object)
+Timer:Start () (at Assets/Scripts/Timer.cs:34)
+
+The current MSAA level is 2, but the recommended MSAA level is 4. Switching to the recommended level.
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2479)
+
+[OVRManager] HMDAcquired event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2519)
+
+[OVRManager] InputFocusLost event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2607)
+
+Unable to process a controller whose SampleRateHz is 0 now.
+UnityEngine.Debug:Log (object)
+OVRHaptics/OVRHapticsOutput:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRHaptics.cs:176)
+OVRHaptics:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRHaptics.cs:393)
+OVRManager:LateUpdate () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2981)
+
+Unable to process a controller whose SampleRateHz is 0 now.
+UnityEngine.Debug:Log (object)
+OVRHaptics/OVRHapticsOutput:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRHaptics.cs:176)
+OVRHaptics:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRHaptics.cs:393)
+OVRManager:LateUpdate () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2981)
+
+[OVRPlugin] CompositorOpenXR_D3D11::Layer::Initialize(): CreateSwapchain for eye 0: 0400388800000001, 3 stages
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin]  ... m_textureStages[0][0] = 0000026026BBB3F0
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin]  ... m_textureStages[0][1] = 0000026026BB7670
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin]  ... m_textureStages[0][2] = 0000026026BBBCF0
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] CompositorOpenXR_D3D11::Layer::Initialize(): CreateSwapchain for eye 1: 0400388800000002, 3 stages
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin]  ... m_textureStages[1][0] = 0000026026BBC2B0
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin]  ... m_textureStages[1][1] = 0000026026BB6D70
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin]  ... m_textureStages[1][2] = 0000026026B7FC30
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] CompositorOpenXR_D3D11::Layer::CreateDepthSwapChain(): [depthStencil] CreateSwapchain for eye 0: 0400388800000003, 3 stages
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin]  ... m_depthTextureStages[0][0] = 0000026026B80230
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin]  ... m_depthTextureStages[0][1] = 0000026026B810F0
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin]  ... m_depthTextureStages[0][2] = 0000026026B839F0
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] CompositorOpenXR_D3D11::Layer::CreateDepthSwapChain(): [depthStencil] CreateSwapchain for eye 1: 0400388800000004, 3 stages
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin]  ... m_depthTextureStages[1][0] = 0000026026B7F370
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin]  ... m_depthTextureStages[1][1] = 0000026026B7CD30
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin]  ... m_depthTextureStages[1][2] = 0000026026B7D8F0
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_READY->XR_SESSION_STATE_SYNCHRONIZED session=72119750804635649 time=1351883954226200
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] [XR_SESSION] ... running 1 visible 0 focused 0
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRManager] TrackingAcquired event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2699)
+
+[OVRPlugin] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_SYNCHRONIZED->XR_SESSION_STATE_VISIBLE session=72119750804635649 time=1351884697017799
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] [XR_SESSION] ... running 1 visible 1 focused 0
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_VISIBLE->XR_SESSION_STATE_FOCUSED session=72119750804635649 time=1351884697024200
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] [XR_SESSION] ... running 1 visible 1 focused 1
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRManager] HMDMounted event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2553)
+
+[OVRManager] VrFocusAcquired event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2587)
+
+[OVRManager] InputFocusAcquired event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2621)
+
+[OVRPlugin] HandleOpenXREvents(): XrEventDataInteractionProfileChanged
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRManager] OnApplicationFocus(false)
+UnityEngine.Debug:Log (object)
+OVRManager:OnApplicationFocus (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:3036)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+Human selectedPositive at: 5/15/2024 11:40:48 AM
+UnityEngine.Debug:Log (object)
+Timer:Update () (at Assets/Scripts/Timer.cs:47)
+
+Human selectedNeutral at: 5/15/2024 11:40:59 AM
+UnityEngine.Debug:Log (object)
+Timer:Update () (at Assets/Scripts/Timer.cs:47)
+
+Human selectedNeutral1 at: 5/15/2024 11:41:19 AM
+UnityEngine.Debug:Log (object)
+Timer:Update () (at Assets/Scripts/Timer.cs:47)
+
+Human selectedNegative at: 5/15/2024 11:41:39 AM
+UnityEngine.Debug:Log (object)
+Timer:Update () (at Assets/Scripts/Timer.cs:47)
+
+Human saved: Negative at: 5/15/2024 11:42:38 AM
+UnityEngine.Debug:Log (object)
+SelectionControl:SaveHuman () (at Assets/SelectionControl.cs:19)
+UnityEngine.Events.UnityEvent:Invoke ()
+Meta.XR.BuildingBlocks.ControllerButtonsMapper:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/BuildingBlocks/ControllerButtonsMapperScripts/ControllerButtonsMapper.cs:69)
+
+Human selectedNeutral at: 5/15/2024 11:42:40 AM
+UnityEngine.Debug:Log (object)
+Timer:Update () (at Assets/Scripts/Timer.cs:47)
+
+Human saved: Neutral at: 5/15/2024 11:42:41 AM
+UnityEngine.Debug:Log (object)
+SelectionControl:SaveHuman () (at Assets/SelectionControl.cs:19)
+UnityEngine.Events.UnityEvent:Invoke ()
+Meta.XR.BuildingBlocks.ControllerButtonsMapper:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/BuildingBlocks/ControllerButtonsMapperScripts/ControllerButtonsMapper.cs:69)
+
+Unable to process a controller whose SampleRateHz is 0 now.
+UnityEngine.Debug:Log (object)
+OVRHaptics/OVRHapticsOutput:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRHaptics.cs:176)
+OVRHaptics:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRHaptics.cs:393)
+OVRManager:LateUpdate () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2981)
+
+Unable to process a controller whose SampleRateHz is 0 now.
+UnityEngine.Debug:Log (object)
+OVRHaptics/OVRHapticsOutput:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRHaptics.cs:176)
+OVRHaptics:Process () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRHaptics.cs:393)
+OVRManager:LateUpdate () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2981)
+
+[OVRPlugin] HandleOpenXREvents(): XrEventDataInteractionProfileChanged
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_FOCUSED->XR_SESSION_STATE_VISIBLE session=72119750804635649 time=1352014283550400
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] [XR_SESSION] ... running 1 visible 1 focused 0
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_VISIBLE->XR_SESSION_STATE_SYNCHRONIZED session=72119750804635649 time=1352014283558700
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] [XR_SESSION] ... running 1 visible 0 focused 0
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_SYNCHRONIZED->XR_SESSION_STATE_STOPPING session=72119750804635649 time=1352014283929500
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] [XR_SESSION] ... running 0 visible 0 focused 0
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] [XR_SESSION] XrEventDataSessionStateChanged: state XR_SESSION_STATE_STOPPING->XR_SESSION_STATE_IDLE session=72119750804635649 time=1352014284292900
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRPlugin] [XR_SESSION] ... running 0 visible 0 focused 0
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+
+[OVRManager] HMDUnmounted event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2539)
+
+[OVRManager] VrFocusLost event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2573)
+
+[OVRManager] InputFocusLost event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2607)
+
+[OVRManager] TrackingLost event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2685)
+
+[OVRManager] AudioOutChanged event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2645)
+
+[OVRPlugin] CompositorOpenXR::~CompositorOpenXR()
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+UnityEngine.XR.Management.XRLoaderHelper:DestroySubsystem<UnityEngine.XR.XRDisplaySubsystem> ()
+Unity.XR.Oculus.OculusLoader:Deinitialize () (at ./Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/OculusLoader.cs:240)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[OVRPlugin] m_xrSession destroyed
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+UnityEngine.XR.Management.XRLoaderHelper:DestroySubsystem<UnityEngine.XR.XRDisplaySubsystem> ()
+Unity.XR.Oculus.OculusLoader:Deinitialize () (at ./Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/OculusLoader.cs:240)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+[OVRPlugin] m_xrInstance destroyed
+UnityEngine.Debug:Log (object)
+OVRManager:OVRPluginLogCallback (OVRPlugin/LogLevel,intptr,int) (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2000)
+UnityEngine.XR.Management.XRLoaderHelper:DestroySubsystem<UnityEngine.XR.XRDisplaySubsystem> ()
+Unity.XR.Oculus.OculusLoader:Deinitialize () (at ./Library/PackageCache/com.unity.xr.oculus@4.2.0/Runtime/OculusLoader.cs:240)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+The current MSAA level is 4, but the recommended MSAA level is 2. Switching to the recommended level.
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2479)
+
+[OVRManager] HMDLost event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2505)
+
+[OVRManager] AudioOutChanged event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2645)
+
+[OVRManager] AudioInChanged event
+UnityEngine.Debug:Log (object)
+OVRManager:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2667)
+
+[OVRManager] OnApplicationQuit
+UnityEngine.Debug:Log (object)
+OVRManager:OnApplicationQuit () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:3042)
+
+[OVRNetworkTcpServer] Stopped listening
+UnityEngine.Debug:Log (object)
+OVRNetwork/OVRNetworkTcpServer:StopListening () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/Util/OVRNetwork.cs:146)
+OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer:OnDisable () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/Util/OVRSystemPerfMetrics.cs:251)
+OVRManager:OnDisable () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2975)
+
+[OVRSystemPerfMetricsTcpServer] server destroyed
+UnityEngine.Debug:Log (object)
+OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer:OnDisable () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/Util/OVRSystemPerfMetrics.cs:255)
+OVRManager:OnDisable () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:2975)
+
+[OVRManager] OnDestroy
+UnityEngine.Debug:Log (object)
+OVRManager:OnDestroy () (at ./Library/PackageCache/com.meta.xr.sdk.core@63.0.0/Scripts/OVRManager.cs:3009)
+
